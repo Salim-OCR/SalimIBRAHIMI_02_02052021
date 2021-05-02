@@ -1,0 +1,37 @@
+header{
+	border:1px solid;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start; 
+}
+
+nav ul{
+	border: ;
+	display: flex;
+
+	list-style-type: none;
+	margin-right: 100px;
+
+}
+
+nav li{
+	border: ;
+	padding-right: 100px;
+}
+
+nav a{
+	border: ;
+	font-size: 1.1em;
+	margin: 15px;
+	text-decoration: none;
+	color: #0065FC;
+}
+
+header a:hover{
+	color: red;
+	text-decoration: overline;
+
+}
+
+
+ 
