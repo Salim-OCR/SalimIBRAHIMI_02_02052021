@@ -33,5 +33,141 @@ header a:hover{
 
 }
 
+#titre{
+	border: 1px solid;
+	display: flex;
+	flex-direction: column;
+}
+
+#recherche{
+	display: flex;
+	margin-left: 10px;
+}
+
+#recherche form {
+	padding-left: 10px;
+	 
+}
+
+#icone_i {
+	background-color: ;
+	border-radius: 15px 0 0 15px;
+	
+}
+
+.reserve{
+	font-weight: bold;
+	color: blue;
+}
+
+/* FIN HEADER*/
+
+
+/*SECTION*/
+
+
+
+#section1{
+	display: flex;
+
+
+
+}
+
+#photos_hébergements{
+	background-color: gray;
+	border-radius: 15px;
+	margin: 25px;
+
+}
+
+#a {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+#a figure{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 15px;
+	margin-bottom: 15px;
+
+}
+
+#a img{
+	border-radius: 15px 15px 0 0 ;
+	width: auto;
+	border: 3px solid white;
+}
+
+#a i{
+	color: blue;
+}
+
+#b{
+	display: flex;
+	justify-content: space-between;
+}
+
+#b figure{
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+
+#b img{
+	border-radius: 15px 15px 0 0 ;
+	width: auto;
+	border: 3px solid white;
+}
+
+#b i{
+	color: blue;
+}
+
+/* ASIDE*/
+
+aside{
+	background-color: gray;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	margin: 20px;
+	width: auto;
+	height: auto;
+}
+
+aside figure{
+	display: flex;
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 15px;
+	width: auto;
+	height: 20%;
+	margin: 50px;
+
+}
+
+aside img{
+	border: 3px solid white;
+	border-radius: 15px 0 0 15px;
+	width: auto;
+
+}
+
+aside i{
+	color: blue;
+}
+
+/* FIN ASIDE*/
+
+
+
 
  
