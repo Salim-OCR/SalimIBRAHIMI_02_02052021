@@ -1,35 +1,42 @@
 header{
 	border:1px solid;
 	display: flex;
+	/*justify-content: space-between;
+	align-items: flex-start;*/ 
 	justify-content: space-between;
-	align-items: flex-start; 
+	margin: 25px;
 }
 
 nav ul{
-	border: ;
+	background-color: gray;
 	display: flex;
-
 	list-style-type: none;
-	margin-right: 100px;
-
+	margin: auto;
+	/*height: 0px;*/
 }
 
 nav li{
-	border: ;
-	padding-right: 100px;
+	display: flex;
+	padding-left: 100px;
 }
 
 nav a{
-	border: ;
+	background-color: yellow;
 	font-size: 1.1em;
 	margin: 15px;
 	text-decoration: none;
 	color: #0065FC;
+	height: auto;
+}
+
+.i{
+	text-decoration: overline red;
 }
 
 header a:hover{
 	color: red;
-	text-decoration: overline;
+	/*text-decoration: overline;*/
+	border-top: solid 2px red;
 
 }
 
@@ -37,17 +44,41 @@ header a:hover{
 	border: 1px solid;
 	display: flex;
 	flex-direction: column;
+	margin: 25px;
 }
-
-#recherche{
+form #recherche_w {
 	display: flex;
-	margin-left: 10px;
 }
 
-#recherche form {
-	padding-left: 10px;
-	 
+#recherche_w #ville{
+	border: 1px solid gray;
+	height: 36px;
 }
+
+#recherche_w i {
+	background-color: gray;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 10px 0 0 10px;
+	width: 40px;
+	height: 30px;
+
+}
+
+#ville {
+	width: 210px;
+	padding-left: 10px;
+}
+
+#clic{
+	background-color: blue;
+	color: white;
+	text-align: center;
+	border-radius: 0 10px 10px 0;
+	width: 100px;
+	height: 40px;
+}
+
 
 #icone_i {
 	background-color: ;
@@ -69,15 +100,13 @@ header a:hover{
 
 #section1{
 	display: flex;
-
-
-
 }
 
 #photos_hébergements{
 	background-color: gray;
 	border-radius: 15px;
 	margin: 25px;
+	margin-bottom: auto;
 
 }
 
@@ -165,9 +194,128 @@ aside i{
 	color: blue;
 }
 
+#photos_populaires{
+	margin-bottom: auto;
+}
+
 /* FIN ASIDE*/
 
+/* ACTIVITE A MARSEILLE*/
 
+#section2{
+	background-color: gray;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 15px;
+	width: auto;
+	height: auto;
+	margin: 15px;
+
+	
+}
+
+#section2 figure{
+	background-color: white;
+	border-radius: 15px;
+	text-shadow:;
+}
+
+
+
+
+#section2 img{
+	border-radius: 15px 15px 0 0;
+}
+
+#vp{
+	margin: 15px;
+}
+
+.figcaption{
+	padding-left: 15px; 
+	line-height: 45px;
+	font-weight: bold;
+	height: auto;
+}
+
+.figure{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: auto;
+	margin: 15px;
+	padding: auto; 
+}
+
+#az{
+	margin-bottom: 20%;
+}
+
+#aq{
+	margin-bottom: 4%;
+}
+
+
+
+
+/* FIN ACTIVITE A MARSEILLE*/
+
+
+/* FOOTER*/
+
+#blocs{
+	display: flex;
+	background-color: gray;
+}
+
+#blocs p{
+	margin-left: 7%;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+
+#propos{
+	background-color: yellow;
+	font-size: 1.1em;
+	width: 33%;
+	margin: 25px;
+}
+
+#propos li{
+	margin-bottom: 10px;
+}
+
+#hébergements{
+	background-color: red;
+	font-size: 1.1em;
+	width: 33%;
+	margin: 25px;
+}
+
+#hébergements li{
+	margin-bottom: 10px;
+
+}
+
+#assistance{
+	background-color: blue;
+	font-size: 1.1em;
+	width: 33%;
+	margin: 25px;
+}
+
+#assistance li{
+	margin-bottom: 10px;
+}
+
+ul, a{
+	list-style-type: none;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+
+/* FIN FOOTER*/
 
 
  
