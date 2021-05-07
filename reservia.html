@@ -15,8 +15,8 @@
 		<header>
 			<div id="logo_reservia">
 				<img src="images/logo/Reservia.svg" alt="logo">
-			</div>
-			<nav>
+			</div >
+			<nav class="i">
 				<ul>
 					<li><a href="#ancre_hébergement">Hébergements</a></li>
 					<li><a href="#ancre_activités">Activités</a></li>
@@ -31,16 +31,22 @@
 			<h2><strong>Trouvez votre hébergement pour des vacances de rêve</strong></h2>
 			<p>En plein centre ville ou en pleine nature</p>
 
-			<div id="recherche">		
-				<p><i class="fas fa-map-marker-alt"></i> </p>
-
+			<div id="recherche">
+				<!--<div id="icone_i">
+					<p><i class="fas fa-map-marker-alt"></i> </p>
+				</div>-->		
+				
 				<form method="post" action="traitement.php">
-					<p><input type="text" name="Ville de France" id="placeholder"placeholder ="Marseille,France" /> <a href="#">Recherche </a></p>
+					<div id="recherche_w">
+						<i class="fas fa-map-marker-alt"></i>
+						<input type="text" name="VilleFrance" id="ville" placeholder ="Marseille, France" class="reserve" />
+						<input id="clic" type="submit" href="#" value="Rechercher" />
+					</div>
 					<!--Mettre le txt placeholder en gras-->
 				</form> 
 
 			</div>
-			<form>
+			<!--<form>-->
 				<!--Mettre les logos de couleur bleu et un fond bleu clair-->
 				<p><strong>Filtres</strong>
 
@@ -55,9 +61,10 @@
 					<i class="fas fa-dog"></i>
 					<input type="checkbox" name="Animaux_autorisés" id="Animaux_autorisés" /><label for=" Animaux_autorisés">Animaux autorisés</label>
 				</p>
-			</form>
+				<!--</form>-->
 
-			<p><i class="fas fa-info"></i><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+				<p><i class="fas fa-info"></i><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+			</div>
 		</div>
 
 		<!--SECTION-->
@@ -163,47 +170,53 @@
 		</section>
 
 		<!--SECTION2-->
-
+		
 		<section>
 			<h2 id="ancre_activités">Activités à Marseille</h2>
-			<div id="section2">
 
-				<figure class="figure">
+			<div  id="section2">
+				<div id="vp">
+				<figure>
 					<img class="img" src="photos_activités_mini/mini_10.jpg" alt="photo du port de marseille">
-					<figcaption><strong>Vieux Port</strong></figcaption>
+					<figcaption class="figcaption"><strong>Vieux Port</strong></figcaption>
 				</figure>
+				</div>
 
-				<div id="c1">
 
-					<figure class="figure">
+				<div class="figure">
+					<div id="az">
+					<figure>
 						<img class="img" src="photos_activités_mini/mini_11.jpg" alt="photo fort de pomègue">
-						<figcaption><strong>Fort de Pomègues</strong></figcaption>
+						<figcaption class="figcaption"><strong>Fort de Pomègues</strong></figcaption>
 					</figure>
-					<figure class="figure">
+					</div>
+					<figure>
 						<img class="img" src="photos_activités_mini/mini_12.jpg" alt="photo des îles du Frioul">
-						<figcaption><strong>Îles du Frioul</strong></figcaption>
+						<figcaption class="figcaption"><strong>Îles du Frioul</strong></figcaption>
 					</figure>
 				</div>
 
-				<figure class="figure">
+				<figure>
 					<img class="img" src="photos_activités_mini/mini_13.jpg" alt="photo des calanques">
-					<figcaption><strong>Parc National des Calanques</strong></figcaption>
+					<figcaption class="figcaption"><strong>Parc National des Calanques</strong></figcaption>
 				</figure>
 
-				<div id="c1">
 
-					<figure class="figure">
+				<div class="figure">
+					<div id="aq">
+					<figure>
 						<img class="img" src="photos_activités_mini/mini_14.jpg" alt="photo notre Notre-Dame-de-la-Garde">
-						<figcaption><strong>Notre-Dame-de-la-Garde</strong></figcaption>
+						<figcaption class="figcaption"><strong>Notre-Dame-de-la-Garde</strong></figcaption>
 					</figure>
-					<figure class="figure">
+					</div>
+					<figure>
 						<img class="img" src="photos_activités_mini/mini_15.jpg" alt="photo parc Longchamp">
-						<figcaption><strong>Parc Longchamp</strong></figcaption>
+						<figcaption class="figcaption"><strong>Parc Longchamp</strong></figcaption>
 					</figure>
 				</div>
-			</div>
-
+			</div>			
 		</section>
+
 
 		<!--FOOTER-->
 
@@ -219,7 +232,7 @@
 					</ul>
 				</div>
 
-				<div id="Nos_hébergements">
+				<div id="hébergements">
 					<p><strong>Nos hébergements</strong></p>
 					<ul>
 						<li><a href="">Charte qualité</a></li>
@@ -227,7 +240,7 @@
 					</ul>
 				</div>
 
-				<div id="Assistance">
+				<div id="assistance">
 					<p><strong>Assistance</strong></p>
 					<ul>
 						<li><a href="">Centre d'aide</a></li>
@@ -238,5 +251,6 @@
 			</div>
 		</footer>
 	</div>
+
 </body>
 </html>
