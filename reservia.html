@@ -20,9 +20,9 @@
 			</div >
 			<nav class="i">
 				<ul>
-					<li id="héberg"><a href="#ancre_hébergements">Hébergements</a></li>
-					<li id="activités"><a href="#ancre_activités">Activités</a></li>
-					<li id="inscription"><a href="#"><strong>S'inscrire</strong></a></li>
+					<li><a href="#ancre_hébergements">Hébergements</a></li>
+					<li><a id="activités" href="#ancre_activités">Activités</a></li>
+					<li><a id="inscription" href="#"><strong>S'inscrire</strong></a></li>
 				</ul>
 			</nav>			
 		</header>
@@ -50,22 +50,32 @@
 			</div>
 			<!--<form>-->
 				<!--Mettre les logos de couleur bleu et un fond bleu clair-->
+				<div id="test1">
 				<p><strong>Filtres</strong>
 
-					<i class="fas fa-money-bill-wave"></i><input type="checkbox" name="économie" id="économique" /><label for="économique">Economique</label>
+					<span class="border">
+						<i id="fas" class="fas fa-money-bill-wave"></i><input type="checkbox" name="économie" id="économique" /><label class="gras" for="économique">Economique</label>
+					</span>
+					<span class="border">
+						<i class="fas fa-child"></i>
+					<input type="checkbox" name="Familial" id="Familial" /><label class="gras" for="Familial">Familial</label>
+					</span>
 
-					<i class="fas fa-child"></i>
-					<input type="checkbox" name="Familial" id="Familial" /><label for="Familial">Familial</label>
 
-					<i class="fas fa-heart"></i>
-					<input type="checkbox" name="Romantique" id="Romantique" /><label for="Romantique">Romantique</label>
+					<span class="border">
+						<i class="fas fa-heart"></i>
+					<input type="checkbox" name="Romantique" id="Romantique" /><label class="gras" for="Romantique">Romantique</label>
 
-					<i class="fas fa-dog"></i>
-					<input type="checkbox" name="Animaux_autorisés" id="Animaux_autorisés" /><label for=" Animaux_autorisés">Animaux autorisés</label>
+					</span>
+					<span class="border">
+						<i class="fas fa-dog"></i>
+					<input type="checkbox" name="Animaux_autorisés" id="Animaux_autorisés" /><label class="gras" for=" Animaux_autorisés">Animaux autorisés</label>
+					</span>			
 				</p>
+				</div>
 				<!--</form>-->
 
-				<p><i class="fas fa-info"></i><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+				<p><i id="info" class="fas fa-info"></i><span id="espace">Plus de 500 logements sont disponibles dans cette ville</span></p>
 			</div>
 		</div>
 
@@ -77,30 +87,45 @@
 				<h2 id="ancre_hébergement">Hébergements à Marseille</h2>
 				<div id="a">
 
-					<figure>
+					<figure>						
 						<img src="photos_hébergement_mini/mini_1.jpg" alt="photo d'une Chambre">
 						<figcaption>
 							<p><strong>Auberge la Cannebière</strong></p>
 							<p>Nuit à partir de <strong>25€</strong></p>
 
-							<p><i class="fas fa-star">
-							</i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-						</figcaption>
+							<p>
+								<span class="étoile_bleu"><i class="fas fa-star">
+							</i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+								<span class="étoile_gris"><i class="fas fa-star"></i></span></p>
+						</figcaption>						
 					</figure>
 					<figure>
 						<img src="photos_hébergement_mini/mini_2.jpg" alt="">
 						<figcaption>
-							<p><strong class="gras">Hôtel du port</strong></p>
+							<p><strong>Hôtel du port</strong></p>
 							<p>Nuit à partir de 52<strong>€</strong></p>
-							<p class="blue"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+<span class="étoile_bleu">
+							<p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+</span>
+</p>
+
 						</figcaption>
 					</figure>
 					<figure>
 						<img src="photos_hébergement_mini/mini_3.jpg" alt="photo d'une Chambre">
 						<figcaption>
-							<p><strong class="gras">Hôtel Les mouettes</strong></p>
+							<p><strong>Hôtel Les mouettes</strong></p>
 							<p>Nuit à partir de 76<strong class="gras">€</strong></p>
-							<p class="blue"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+							<p>
+								<span class="étoile_bleu">
+									<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+								</span>
+								<span class="étoile_gris">
+									<i class="fas fa-star"></i>
+								</span>
+								</p>
+								
 						</figcaption>
 					</figure>
 				</div>
@@ -111,23 +136,43 @@
 						<figcaption>
 							<p class="z"><strong class="gras">Hôtel de la mer</strong></p>
 							<p class="z">Nuit à partir de 46<strong>€</strong></p>
-							<p class="blue"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>	
+							<p>
+								<span class="étoile_bleu">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+							</span>
+							<span class="étoile_gris">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i>
+							</span>
+
+							</p>	
 						</figcaption>
 					</figure>
 					<figure>
 						<img src="photos_hébergement_mini/mini_5.jpg" alt="photo d'une Chambre">
 						<figcaption>
-							<p><strong class="gras">Auberge Le Panier</strong></p>
-							<p>Nuit à partir de <strong class="gras">23€</strong></p>
-							<p class="blue"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+							<p><strong>Auberge Le Panier</strong></p>
+							<p>Nuit à partir de <strong>23€</strong></p>
+							<p>
+								<span class="étoile_bleu">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+							</span>
+							<span class="étoile_gris">
+								<i class="fas fa-star"></i>
+							</span>	
+							</p>
 						</figcaption>
 					</figure>
 					<figure>
 						<img src="photos_hébergement_mini/mini_6.jpg" alt="photo d'une Chambre">
 						<figcaption>
 							<p><strong>Hôtel chez Amina</strong></p>
-							<p>Nuit à partir de 96<strong class="gras">€</strong></p>
-							<p class="blue"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+							<p>Nuit à partir de 96<strong>€</strong></p>
+							<p>
+								<span class="étoile_bleu">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+							</span>
+							</p>
+
 						</figcaption>
 					</figure>
 				</div>
@@ -145,8 +190,13 @@
 						<img class="img1" src="photos_populaires_mini/mini_8.jpg" alt="photo d'une Chambre">	
 						<figcaption>
 							<p><strong>Hôtel Le soleil du matin</strong></p>
-							<p>Nuit à partir de 128<strong class="gras">€</strong></p>
-							<p class="blue"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+							<p>Nuit à partir de 128<strong>€</strong></p>
+							<p>
+<span class="étoile_bleu">
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+
+</span>
+							</p>
 						</figcaption>
 					</figure>
 
@@ -155,7 +205,15 @@
 						<figcaption>
 							<p><strong>Au coeur de l'eau Chambres d'hôtes</strong></p>
 							<p>Nuit à partir de 71<strong>€</strong></p>
-							<p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+							<p>
+<span class="étoile_bleu">
+
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+</span>
+<span class="étoile_gris">
+								<i class="fas fa-star"></i>
+</span>
+							</p>
 						</figcaption>
 					</figure>
 
@@ -164,7 +222,16 @@
 						<figcaption>
 							<p><strong>Hôtel Tout bleu et Blanc</strong></p>
 							<p>Nuit à partir de 68<strong>€</strong></p>
-							<p class="blue"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+							<p>
+								<span class="étoile_bleu">
+
+
+								<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+</span>
+<span class="étoile_gris">
+								<i class="fas fa-star"></i>
+</span>
+							</p>
 						</figcaption>
 					</figure>
 				</div>
