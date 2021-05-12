@@ -6,15 +6,18 @@ strong{
 	font-weight: bold;
 }
 
+#conteneur {
+	width: 80%;
+	margin: auto;
+}
 
 /*header	*/
 
 header{
 	display: flex;
-	/*justify-content: space-between;
-	align-items: flex-start;*/ 
 	justify-content: space-between;
 	margin: 25px;
+	border: 1px solid black;
 }
 
 nav ul{
@@ -31,8 +34,19 @@ nav li{
 nav a{
 	font-size: 1.1em;
 	margin: 15px;
-	height: auto;
 	color: #0065FC;
+	display: inline-block;
+	height: 2.5em;
+}
+
+nav ul li span {
+	display: inline-block;
+	height: 50px;
+	vertical-align: bottom;
+}
+
+nav ul li span:hover {
+	border-top: 2px solid blue;
 }
 
 #activités{
@@ -132,12 +146,8 @@ form #recherche_w {
 	text-align: center;
 	padding-right: 0px;
 	margin-right: 10px;
-
 }
 
-.gras{
-	font-weight: bold;
-}
 
 #info {
 	border: 1px solid gray;
@@ -169,14 +179,14 @@ SECTION
 #section1{
 	display: flex;
 	border: 1px solid;
-
+	width: 80%;
+	height: 950px;
+	margin: auto;
 }
 
 #photos_hébergements{
 	background-color: #F2F2F2;
 	border-radius: 15px;
-	margin: 25px;
-	margin-bottom: auto;
 }
 
 #a {
@@ -196,7 +206,6 @@ SECTION
 
 #a img{
 	border-radius: 15px 15px 0 0 ;
-	width: auto;
 	border: 3px solid white;
 }
 
@@ -224,7 +233,6 @@ SECTION
 
 #b img{
 	border-radius: 15px 15px 0 0 ;
-	width: auto;
 	border: 3px solid white;
 }
 
@@ -236,9 +244,7 @@ aside{
 	border-radius: 25px;
 	display: flex;
 	flex-direction: column;
-	margin: 20px;
-	width: auto;
-	height: auto;
+	margin-left: 25px ;
 }
 
 aside figure{
@@ -246,17 +252,12 @@ aside figure{
 	background-color: white;
 	border: 3px solid white;
 	border-radius: 15px;
-	width: auto;
-	height: 20%;
-	margin: 50px;
-
+	height: 23%;
 }
 
 aside img{
 	border: 3px solid white;
 	border-radius: 15px 0 0 15px;
-	width: auto;
-
 }
 
 
@@ -273,11 +274,8 @@ aside img{
 	display: flex;
 	justify-content: space-between;
 	border-radius: 15px;
-	width: auto;
-	height: auto;
-	margin: 15px;
-
-	
+	width: 80%;
+	margin: auto;	
 }
 
 #section2 figure{
@@ -285,9 +283,6 @@ aside img{
 	border-radius: 15px;
 	text-shadow:;
 }
-
-
-
 
 #section2 img{
 	border-radius: 15px 15px 0 0;
@@ -331,6 +326,8 @@ aside img{
 #blocs{
 	display: flex;
 	background-color: #F2F2F2;
+	width: 80%;
+	margin: auto;
 }
 
 #blocs p{
