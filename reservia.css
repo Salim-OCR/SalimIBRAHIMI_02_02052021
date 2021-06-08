@@ -286,3 +286,57 @@ a:visited{
 	display: flex;
 }
 /*FIN SECTION 1 HEBERGEMENTS A MARSEILLE*/
+
+
+
+
+
+/* ASIDE*/
+
+aside{
+	background-color: #F2F2F2;
+	border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+	margin-left: 2%;
+	margin-right: 2% 
+}
+aside h2{
+	display: flex;
+	justify-content: space-between;
+	width: 83%;
+	padding-top: 5%;
+	padding-left: 6%;
+	font-size: 1.5em;
+	margin-left: 3%;
+}
+aside figure{
+	display: flex;
+	background-color: white;
+	border: 3px solid white;
+	border-radius: 15px;
+	width: auto;
+}
+#figure_dubas{
+	margin-bottom: 10%;
+}
+aside img{
+	width: 40%;
+	border: 3px solid white;
+	border-radius: 15px 0 0 15px;
+}
+aside figcaption{
+	width: 100%;
+}
+aside strong{
+	font-size: 1.2em;
+}
+aside p{
+	padding-left: 15px;
+	margin: 2.5%;
+} 
+.étoiles{
+	margin-top: 20%;
+}
+/* FIN ASIDE*/
