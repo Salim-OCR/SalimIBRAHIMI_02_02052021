@@ -472,3 +472,58 @@ aside p{
 	margin: 2%;
 }
 /* FIN FOOTER*/
+
+
+
+/* DEBUT DU RESPONSIVE*/
+
+@media (min-width: 769px) and (max-width: 1440px){
+	#conteneur{
+		width: 90%;
+	}
+	#hébergements a{
+		margin-right: 150px;
+	}
+	#rechercher{
+		height: auto;
+		width: 50%;
+	}
+	#rechercher i{
+		padding: 2%;
+	}
+	.filtres{
+		flex-wrap: wrap;
+		height: auto;
+		font-size: 1.2em;
+	}
+	.filtres strong{
+		padding-top: 15px;
+	}
+	#form_economie i{
+		padding: 11px;
+	}
+	#form_family i{
+		padding: 11px;
+	}
+	#form_romantic i{
+		padding: 11px;
+	}
+	#form_animals i{
+		padding: 11px;
+	}
+	#font_hébergements{
+		width: 80%;
+	}
+	#section_hébergements{
+		font-size: 0.79em;
+	}
+	aside{
+		width: 35%;
+	}
+	aside figure{
+		margin: 5%;
+	}
+	.filtres span{
+		font-size: 0.8em;
+	}
+}
