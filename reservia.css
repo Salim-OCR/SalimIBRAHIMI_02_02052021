@@ -1,0 +1,14 @@
+body{
+	font-family: 'Raleway', sans-serif;	
+}
+#conteneur {
+	border-right: 1px solid #F2F2F2;
+	width: 60%;
+	margin: auto;
+}
+#conteneur a{
+	text-decoration: none;
+}
+a:visited{
+	color: black;
+}
