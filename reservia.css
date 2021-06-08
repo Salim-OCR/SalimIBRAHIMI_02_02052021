@@ -12,3 +12,51 @@ body{
 a:visited{
 	color: black;
 }
+/*header	*/
+.header{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+
+#logo_reservia{
+	padding-top: 2%;
+}
+#menu .ul, .li{
+	display: flex;	
+	width: auto;
+}
+#menu a{
+	font-size: 1.1em;
+	color: #0065FC;
+	display: inline-block;
+	/*margin: auto;*/
+}
+#menu a:hover {
+	border-top: 1px solid #0065FC;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+#hébergements a{
+	margin-right: 125px ;
+	border-top: 1px solid #0065FC;
+	padding-top: 25px;
+	color: blue;
+	padding-left: 15%;
+	padding-right: 15%;
+	
+}
+#activités a{
+	margin-right: 125px;
+	color: black;
+	padding-top: 27px;
+}
+#inscription a {
+	font-weight: bold;
+	padding-top: 27px;
+	color: #0065FC;
+
+}
+/* FIN DE HEADER*/
