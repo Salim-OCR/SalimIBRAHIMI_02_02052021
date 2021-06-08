@@ -215,3 +215,74 @@ a:visited{
 }
 
 /* FIN SECTION HEADER*/
+
+
+
+
+/*DEBUT DE SECTION 1 HEBERGEMENTS A MARSEILLE*/
+#section_hébergements{	
+	display: flex;
+	justify-content: space-between;
+	margin-bottom:5%;
+	margin-left: 2%;
+	width: auto;
+}
+#section_hébergements h1{
+	font-size: 1.5em;
+	margin-left: 3%;
+	margin-top: 5%;
+}
+#font_hébergements{
+	background-color: #F2F2F2;
+	border-radius: 25px;
+	width: 65%;
+}
+#font_hébergements figure{
+	width: 85%;
+	margin: auto;
+}
+#afficher_plus{
+	font-size: 1.2em;
+	padding-top: 3%;
+	padding-left: 3%;
+	list-style-type: none;
+}
+#afficher_plus a:hover{
+	font-size: 1.7em;
+}
+#bloc figure{
+	background-color: white;
+	border-radius: 25px;
+	border: 3px solid white;
+	margin:  2%;
+}
+#bloc img{
+	border-radius: 25px 25px 0 0;
+	border: 3px solid white;
+	width: 97.5%;
+}
+#bloc p{
+	padding-left: 5%;
+}
+#bloc strong{
+	margin: auto;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.étoile_bleu{
+	color: #0065FC;
+}
+.étoile_gris{
+	color: rgb(225 225 225);
+}
+/*BLOC FIGURE 1 ET 2*/
+
+.bloc_figure1{
+	display: flex;
+
+}
+
+.bloc_figure2{
+	display: flex;
+}
+/*FIN SECTION 1 HEBERGEMENTS A MARSEILLE*/
