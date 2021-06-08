@@ -750,3 +750,255 @@ aside p{
 		color: blue;
 	}  
 }
+
+
+
+@media (max-width: 424px){
+	#conteneur{
+		width: auto;
+	}
+	.header{
+		display: inline-block;
+	}
+	#logo_reservia{
+		width: 0%;
+		height: 0px;
+		padding-left: 2% ;
+	}
+	.ul{
+		flex-direction: column-reverse;	
+	}
+	#inscription{
+		padding-left: 75%;
+		margin-bottom: 10%;
+	}
+	#inscription a{
+		padding-top: 17%;
+	}
+	#hébergements a{
+		border-top: none;
+		padding-top: 0;	
+		padding-left: 1%;
+		margin-right: 0px;
+	}
+	#hébergements span{
+		padding-bottom: 10px;
+		border-bottom: 1px solid blue;
+		margin-right: 0px;
+		padding-right: 25px;
+		padding-left: 20px;
+	}
+	#activités a{
+		padding-top: 0;
+		margin-right: 0px;
+	}
+	#activités span{
+		padding-bottom: 10px;
+		border-bottom: 1px solid gray;
+		padding-right: 60px;
+		padding-left: 70px;
+		margin-left: 25px;
+		margin-right: 0px ;
+	}
+	#section_one header{
+		display: inline-block;
+		font-size: 1.1em;
+		margin-left: 2%;
+		margin-top: 10%;
+	}
+	#rechercher{
+		margin-left: 3%;
+		width: 100%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+	#rechercher i{
+		width: 35px;
+	}
+	#input_ville{
+		width: 63%;
+		padding-left: 4%;
+	}
+	#rechercher .btnMobile i{
+		color: white;
+		background-color: #0065FC;
+		border-radius: 15px;
+	}
+	.btnMobile{
+		display: inline-block;
+		background-color: #0065FC;
+		text-align: center;
+		font-size: 1.1em;
+		border-radius: 15px;
+		width: 13%;
+	}
+	#bouton{
+	display: none;
+	}	
+	.filtres{
+		display: inline-block;
+		margin-bottom: 5%;
+    }
+    .filtres strong{
+    	margin: 2%;
+    }
+    #form_economie{
+    	border: 1px solid gray;
+    	margin-left: 1%;
+    	width: 190px;
+    	border-radius: 45px; 
+    	margin-bottom: 3%;
+    	margin-top: 3%;
+    }
+    #form_economie i{
+    	padding: 13px;
+    }
+    #form_family{
+    	border: 1px solid gray;
+    	margin-left: 5%;
+    	width: 150px;
+    	border-radius: 45px; 
+    	margin-bottom: 3%;
+    	margin-right: 2%;
+    	margin-top: 3%;
+    }
+    #form_family i{
+    	padding: 12px;
+    }
+    #form_romantic{
+    	margin-left: 1%;
+    	width: 180px;
+    	border: 1px solid gray;
+    	border-radius: 45px; 
+    	margin-bottom: 3%;
+    }
+    #form_romantic i{
+    	padding: 12px;
+    }
+    #form_animals{
+    	margin-left: 1%;
+    	width: 250px;
+    	border: 1px solid gray;
+    	border-radius: 45px; 
+    	margin-bottom: 2%;
+    }
+    #form_animals i{
+    	padding: 12px;
+    }
+    #icon_info i{
+    	width: 11px;
+    	padding: 6px;
+    	margin-right: 3%;
+    	margin-left: 2%;
+    	border: 1px solid gray;
+    	float: left;
+    }
+    #icon_info {
+    	font-size: 1.1em;
+    }
+    #section_hébergements{
+		flex-direction: column-reverse;
+		margin: 0;
+	}
+	#font_hébergements{
+		width: auto;
+		background-color: white;
+	}
+	aside{
+		display: block;
+		width: auto;
+		border-radius: 0;
+		margin: auto;		
+	}
+	aside h2{
+		padding-left: 2%;
+		width: 90%;
+		font-weight: 900;
+		font-size: 1.6em;
+	}
+	aside figure{
+		margin-left: 4%;
+		height: auto;
+		margin-bottom: 3%;
+		margin-right: 5%;
+	}
+	.étoiles{
+		margin-top: 20%;
+	}
+	#section_hébergements h1{
+		font-weight: 900;
+		margin-left: 7%;
+	}
+	#bloc figure{
+		box-shadow: 1px 3px 1px #F2F2F2;
+		margin: auto;
+		margin-bottom: 5%;
+	}
+	.bloc_figure1{
+		display: block;
+	}
+	.bloc_figure2{
+		display: block;	
+	}
+   #thèmes_marseille{
+		display: block;
+		width: auto;
+		height: auto;
+   }
+    #bloc{
+   		flex-direction: column; 		
+   }
+   #bloc img{
+   		height: 125px;
+   }
+	#thèmes_marseille figure{
+		box-shadow: 0 4px 8px #f2f2f2;
+		height: 210px;
+		width: auto;
+		margin-bottom: 5%;
+		margin-top: 10%;
+	}
+	#thèmes_marseille img{
+		border-radius:  14px 14px 0 0;
+		height: 150px;
+	}
+	.img_vieuxport{
+		display: none;
+	}
+	.img_mobile{
+		display: inline-block;
+	}
+	.img_descalanques{
+		display: none;
+	}
+	#figure_île{
+		padding-top: 0%;
+	}
+	#figure_parc{				
+		height: auto;
+		width: auto;
+	}
+	#longchamp{
+		padding-top: 0;
+	}
+	#blocs{
+		flex-direction: column;
+		height: auto;
+	}
+	#blocs div{
+		width: auto;
+		margin-top: 0;
+	}
+	#blocs p{
+		margin-top: 10%;
+	}
+	#propos{
+		width: auto;
+	}
+	#nos_hébergements{
+		width: 50%;
+	}
+	#assistance{
+		width: 45%;
+	}
+}
