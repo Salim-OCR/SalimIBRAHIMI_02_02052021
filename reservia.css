@@ -60,3 +60,158 @@ a:visited{
 
 }
 /* FIN DE HEADER*/
+
+
+/* SECTION AVEC HEADER*/
+
+/* HEADER*/
+#section_one{
+	display: flex;
+	flex-direction: column;
+	margin-left: 2%;
+}
+#section_one header{
+	display: flex;
+	flex-direction: column;
+	margin: 0%; 
+}
+#section_one h1, p{
+	margin: 0px;
+	margin-bottom: 10px;
+}
+#section_one i{
+	background-color: #DEEBFF;
+	text-align: center;
+	border-radius: 45%;
+	width: 30px;
+	padding: 1.5%;
+}
+
+/* RECHERCHE*/
+#rechercher{	
+	display: flex;
+	width: 35%;
+	height: 50px;
+	font-size: 1.1em;
+	margin-bottom: 1.5%;
+}
+#rechercher i{
+	background-color: #F2F2F2;
+	color: black;
+	text-align: center;
+	padding-top: 15px;
+	border-radius: 12px 0 0 12px;
+}
+#input_ville{
+	border: 1px solid #F2F2F2;
+	font-size: 1.1em;
+	font-weight: bolder;
+	width: 225px;
+	padding-left: 2%;
+}
+#bouton{
+	background-color: #0065FC;
+	color: white;
+	text-align: center;
+	font-size: 1.1em;
+	border-radius: 0 15px 15px 0;
+	width: 150px;
+}
+.btnMobile{
+	display: none;
+}
+
+/* FILTRES*/
+.filtres{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 1.5%;
+	font-size: 1.1em;
+}
+.filtres strong{
+	padding-top: 1%;
+	font-size: 1.1em;
+
+}
+.filtres i{
+	color:  #0065FC;
+	background-color: #DEEBFF;
+}
+.filtres i:hover{
+	color: green;
+}
+.filtres span{
+	padding-left: 5%;
+	font-weight: 600 ;
+}
+.filtres_duo{
+	display: flex;
+}
+#form_economie{
+	border: 1px solid #F2F2F2;
+	margin-left: 4%;
+	border-radius: 25px;
+	width: 230px;
+	font-size: 1.1em;
+}
+#form_economie i{
+	padding: 16px;
+	width: auto;
+	font-size: 0.9em;
+}
+#form_family{
+	border: 1px solid #F2F2F2;
+	margin-left: 5%;
+	border-radius: 25px;
+	width: 170px;
+	font-size: 1.1em;
+}
+#form_family i{
+	padding: 16px;
+	width: 14.5%;
+
+}
+#form_romantic{
+	border: 1px solid #F2F2F2;
+	margin-left: 2%;
+	border-radius: 25px;
+	width: 190px;
+	font-size: 1.1em;
+}
+#form_romantic i{
+	padding: 16px;
+	width: auto;
+}
+#form_romantic i:hover{
+	color: red;
+}
+#form_animals{
+	border: 1px solid #F2F2F2;
+	margin-left: 2%;
+	border-radius: 25px;
+	width: 255px;
+	font-size: 1.1em;
+}
+#form_animals i{
+	padding: 16px;
+	width: auto;	
+}
+/* FIN DU FILTRE*/
+
+
+/*ICONE INFO*/
+#icon_info{
+	margin-bottom: 2%;
+}
+#icon_info i{
+	color: #0065FC;
+	border: 1px solid #F2F2F2;
+	background-color: white;
+	width: 1%;
+	padding: 0.2%;  
+	text-align: center;
+	font-size: 12px;
+	margin-right: 0.5%;
+}
+
+/* FIN SECTION HEADER*/
