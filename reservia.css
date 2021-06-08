@@ -432,3 +432,43 @@ aside p{
 
 
 
+/* FOOTER*/
+#blocs{
+	display: flex;
+	background-color: #F2F2F2;
+	width: auto;
+	margin-top: 50px;
+	height: 200px;
+}
+#blocs div{
+	font-size: 1.1em;
+	width: 45%;
+	
+	margin-top: 2.2%;
+}
+#blocs p{
+	padding-left: 5%;
+	font-size: 1.2em;
+}
+#blocs li{
+	padding-bottom: 5px;
+}
+#propos{
+	padding-left: 4%;
+	width: 270px;
+	list-style-type: none;
+}
+#nos_hébergements{
+	list-style-type: none;
+	width: 200px;
+	padding-left: 4%;
+}
+#assistance{	
+	padding-left: 4%;
+	width: 155px;
+	list-style-type: none;
+}
+#blocs li{
+	margin: 2%;
+}
+/* FIN FOOTER*/
