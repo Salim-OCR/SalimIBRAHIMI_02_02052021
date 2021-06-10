@@ -505,12 +505,14 @@ aside p{
 	}
 }
 
+*/
+
+
 
 
 @media  (min-width: 425px) and (max-width: 768px){
 	#conteneur{
 		display: block;
-		background-color: rgb(160 245 250);
 		width: 90%;	
 	}
 	h1{
@@ -727,12 +729,13 @@ aside p{
 		color: blue;
 	}  
 }
-*/
+
 
 
 @media (max-width: 424px){
 	#conteneur{
-		width: auto;
+		border: 1px solid red;
+		width: 80%;
 	}
 	.header{
 		display: inline-block;
@@ -740,13 +743,13 @@ aside p{
 	#logo_reservia{
 		width: 0%;
 		height: 0px;
-		padding-left: 2% ;
 	}
 	.ul{
-		flex-direction: column-reverse;	
+		border: 1px solid ;
+		flex-direction: column-reverse;
 	}
 	#inscription{
-		padding-left: 75%;
+		padding-left: 80%;
 		margin-bottom: 10%;
 	}
 	#inscription a{
@@ -755,15 +758,11 @@ aside p{
 	#hébergements a{
 		border-top: none;
 		padding-top: 0;	
-		padding-left: 1%;
-		margin-right: 0px;
+		padding-left: 25%;
 	}
 	#hébergements span{
 		padding-bottom: 10px;
-		border-bottom: 1px solid blue;
-		margin-right: 0px;
-		padding-right: 25px;
-		padding-left: 20px;
+		border-bottom: 1.5px solid #0065FC;
 	}
 	#activités a{
 		padding-top: 0;
@@ -771,108 +770,138 @@ aside p{
 	}
 	#activités span{
 		padding-bottom: 10px;
-		border-bottom: 1px solid gray;
+		border-bottom: 1.5px solid #F2F2F2;
 		padding-right: 60px;
-		padding-left: 70px;
-		margin-left: 25px;
-		margin-right: 0px ;
+		padding-left: 50px;
 	}
+
+
+
+
+	/*SECTION HEADER*/
 	#section_one header{
+		border: 1px solid red;
 		display: inline-block;
-		font-size: 1.1em;
-		margin-left: 2%;
 		margin-top: 10%;
+		margin-left: 7%;
+		width: 80%;
+		font-size: 1.2em;
 	}
 	#rechercher{
-		margin-left: 3%;
-		width: 100%;
+		margin-left: 7%;
+		width: 85%;
 		margin-top: 5%;
 		margin-bottom: 5%;
 	}
 	#rechercher i{
 		width: 35px;
+		font-size: 1.1em;
 	}
 	#input_ville{
-		width: 63%;
+		width: 65%;
 		padding-left: 4%;
+		font-size: 1.4em;
 	}
 	#rechercher .btnMobile i{
 		color: white;
-		background-color: #0065FC;
-		border-radius: 15px;
+		background-color: #0065FC ;
+		border-radius: 7px;
 	}
 	.btnMobile{
 		display: inline-block;
 		background-color: #0065FC;
 		text-align: center;
 		font-size: 1.1em;
-		border-radius: 15px;
+		border-radius: 7px;
 		width: 13%;
 	}
 	#bouton{
 	display: none;
 	}	
+
+
+
+
+
+/*FILTRES*/
+
 	.filtres{
 		display: inline-block;
 		margin-bottom: 5%;
+		height: auto;
     }
     .filtres strong{
-    	margin: 2%;
+    	margin: 7%;
+    }
+    .filtres_duo{
+    	width: auto;
     }
     #form_economie{
-    	border: 1px solid gray;
-    	margin-left: 1%;
-    	width: 190px;
+    	border: 1.5px solid #F2F2F2;
+    	margin-left: 7%;
+    	width: 45%;
     	border-radius: 45px; 
     	margin-bottom: 3%;
     	margin-top: 3%;
     }
     #form_economie i{
-    	padding: 13px;
+    	padding: 10px;
     }
     #form_family{
-    	border: 1px solid gray;
-    	margin-left: 5%;
-    	width: 150px;
+    	border: 1.5px solid #F2F2F2;
+    	margin-left: 3%;
+    	width: 30%;
     	border-radius: 45px; 
     	margin-bottom: 3%;
-    	margin-right: 2%;
     	margin-top: 3%;
     }
     #form_family i{
-    	padding: 12px;
+    	padding: 10px;
+    	width: 10%;
     }
     #form_romantic{
-    	margin-left: 1%;
-    	width: 180px;
-    	border: 1px solid gray;
+    	margin-left: 7%;
+    	width: 40%;
+    	border: 1.5px solid #F2F2F2;
     	border-radius: 45px; 
     	margin-bottom: 3%;
     }
     #form_romantic i{
-    	padding: 12px;
+    	padding: 10px;
     }
     #form_animals{
-    	margin-left: 1%;
-    	width: 250px;
-    	border: 1px solid gray;
+    	margin-left: 7%;
+    	width: 50%;
+    	border: 1.5px solid #F2F2F2;
     	border-radius: 45px; 
     	margin-bottom: 2%;
     }
     #form_animals i{
-    	padding: 12px;
+    	padding: 10px;
     }
     #icon_info i{
-    	width: 11px;
-    	padding: 6px;
+
+    	width: 5px;
+    	padding: 3px;
     	margin-right: 3%;
     	margin-left: 2%;
-    	border: 1px solid gray;
+    	border: 1.5px solid #F2F2F2;
     	float: left;
     }
     #icon_info {
-    	font-size: 1.1em;
+    	width: 80%;
+    	margin-left: 7%;
+    	border: 1px solid ;
+    	font-size: 1.2em;
+    	margin-bottom: 10%;
     }
+
+
+
+
+
+
+/*SECTION ASIDE*/
     #section_hébergements{
 		flex-direction: column-reverse;
 		margin: 0;
@@ -883,13 +912,13 @@ aside p{
 	}
 	aside{
 		display: block;
-		width: auto;
+		width: 95%;
 		border-radius: 0;
 		margin: auto;		
 	}
 	aside h2{
 		padding-left: 2%;
-		width: 90%;
+		width: 85%;
 		font-weight: 900;
 		font-size: 1.6em;
 	}
@@ -900,14 +929,22 @@ aside p{
 		margin-right: 5%;
 	}
 	.étoiles{
-		margin-top: 20%;
+		margin-top: 30%;
 	}
+
+
+
+
+
+
+	/*SECTION HEBERGEMENTS*/
 	#section_hébergements h1{
-		font-weight: 900;
 		margin-left: 7%;
 	}
 	#bloc figure{
 		box-shadow: 1px 3px 1px #F2F2F2;
+		margin-bottom: 5%;
+		width: 85%;
 		margin: auto;
 		margin-bottom: 5%;
 	}
@@ -925,19 +962,30 @@ aside p{
     #bloc{
    		flex-direction: column; 		
    }
-   #bloc img{
-   		height: 125px;
+   #afficher_plus{
+   	margin-left: 7%;
+   	font-size: 1.2em;
+   	margin-bottom: 10%;
    }
+
+
+
+
+
+
+/*ACTIVITE A MARSEILLE*/
+	#section_activité h1{
+		margin-left: 10%;
+	}
 	#thèmes_marseille figure{
 		box-shadow: 0 4px 8px #f2f2f2;
-		height: 210px;
-		width: auto;
+		width: 85%;
 		margin-bottom: 5%;
-		margin-top: 10%;
+		margin-top: 6%;
 	}
 	#thèmes_marseille img{
 		border-radius:  14px 14px 0 0;
-		height: 150px;
+		height: 110px;
 	}
 	.img_vieuxport{
 		display: none;
@@ -948,34 +996,35 @@ aside p{
 	.img_descalanques{
 		display: none;
 	}
-	#figure_île{
-		padding-top: 0%;
-	}
-	#figure_parc{				
-		height: auto;
-		width: auto;
+	#figure_île img{
+		margin-top: 0;
 	}
 	#longchamp{
 		padding-top: 0;
 	}
+
+
+
+
+	/*FOOTER*/
 	#blocs{
 		flex-direction: column;
 		height: auto;
 	}
 	#blocs div{
-		width: auto;
-		margin-top: 0;
+		margin-top: 7%;
+		margin-left: 7%;
 	}
 	#blocs p{
-		margin-top: 10%;
+		margin-top: 5%;
 	}
 	#propos{
 		width: auto;
 	}
 	#nos_hébergements{
-		width: 50%;
+		width: 80%;
 	}
 	#assistance{
-		width: 45%;
+		width: 80%;
 	}
 }
